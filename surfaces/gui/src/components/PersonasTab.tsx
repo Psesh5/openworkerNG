@@ -25,7 +25,7 @@ const CARD = "rounded-xl2 border border-line bg-panel";
 const SELECT = "px-2.5 py-2 rounded-lg border border-line bg-paper text-ui text-ink shrink-0";
 const INPUT =
   "flex-1 min-w-0 px-3 py-2 rounded-lg border border-line bg-paper text-ui text-ink outline-none focus:border-accent";
-const BTN_ACCENT = "text-ui px-3 py-2 rounded-lg bg-accent text-white shrink-0 disabled:opacity-40";
+const BTN_ACCENT = "text-ui px-3 py-2 rounded-lg bg-accent text-onAccent shrink-0 disabled:opacity-40";
 const BTN_BORDERED =
   "text-ui px-2.5 py-1.5 rounded-lg border border-line bg-paper hover:border-lineStrong shrink-0 disabled:opacity-40 disabled:hover:border-line";
 
@@ -214,7 +214,7 @@ export function PersonasTab({
                     {t("personas.disable_warning", { count: liveCount(p.id) })}
                   </span>
                   <button
-                    className="text-meta px-2.5 py-1.5 rounded-lg bg-accent text-white shrink-0"
+                    className="text-meta px-2.5 py-1.5 rounded-lg bg-accent text-onAccent shrink-0"
                     data-testid={`persona-disable-confirm-${p.id}`}
                     onClick={() => {
                       setConfirmOff(null);

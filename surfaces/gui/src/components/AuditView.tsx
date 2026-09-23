@@ -8,7 +8,7 @@ import { PanelHead } from "./IntegrationsView";
 // filterable, with sanitized arguments.
 const CARD = "rounded-xl2 border border-line bg-panel";
 const INPUT = "px-3 py-1.5 rounded-lg border border-line bg-paper text-ui text-ink outline-none focus:border-accent";
-const BTN_ACCENT = "text-ui px-3 py-1.5 rounded-lg bg-accent text-white shrink-0";
+const BTN_ACCENT = "text-ui px-3 py-1.5 rounded-lg bg-accent text-onAccent shrink-0";
 
 export function AuditView() {
   const [events, setEvents] = useState<AuditEvent[]>([]);

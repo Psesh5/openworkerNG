@@ -361,7 +361,7 @@ function OAuthSignIn({ info, tp, onChanged }: { info: ProviderInfo; tp: string; 
   return (
     <div className="mt-4">
       <button
-        className="rounded-lg border border-accent bg-accent px-4 py-2 text-ui font-medium text-white hover:brightness-105 disabled:opacity-40"
+        className="rounded-lg border border-accent bg-accent px-4 py-2 text-ui font-medium text-onAccent hover:brightness-105 disabled:opacity-40"
         onClick={() => void start()}
         disabled={busy}
         data-testid={`${tp}-oauth-signin`}
@@ -595,7 +595,7 @@ export function ProviderForm({
                 <span className="text-meta text-faint">{t("provider.test_save_hint")}</span>
               )}
               <button
-                className="shrink-0 rounded-lg border border-accent bg-accent px-4 py-1.5 text-ui font-medium text-white hover:brightness-105 disabled:opacity-40"
+                className="shrink-0 rounded-lg border border-accent bg-accent px-4 py-1.5 text-ui font-medium text-onAccent hover:brightness-105 disabled:opacity-40"
                 onClick={() => ps.runTestAndSave()}
                 disabled={ps.verify.state === "testing"}
                 data-testid={`${tp}-test`}

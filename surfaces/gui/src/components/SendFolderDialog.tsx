@@ -119,7 +119,7 @@ export function SendFolderDialog({ coworkerName, machine, onPick, onTemp, onCanc
             </button>
           )}
           <button
-            className="flex-1 text-center text-ui px-2.5 py-2 rounded-lg bg-accent text-white font-semibold hover:opacity-95"
+            className="flex-1 text-center text-ui px-2.5 py-2 rounded-lg bg-accent text-onAccent font-semibold hover:opacity-95"
             data-testid="start-temp-folder"
             onClick={() => {
               if (busy) return;

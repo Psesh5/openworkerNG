@@ -463,7 +463,7 @@ function ConfigurationDialog({
                         onClick={() => setModels((l) => (on ? l.filter((x) => x !== m) : [...l, m]))}
                         data-testid={`cfg-model-${m}`}
                       >
-                        {on && <span className="text-[10px] font-medium bg-accent text-white rounded-full px-1.5">{i + 1}</span>}
+                        {on && <span className="text-[10px] font-medium bg-accent text-onAccent rounded-full px-1.5">{i + 1}</span>}
                         {shortModel(m)}
                         {!runnable && <span className="text-faint">· {t("connconfig.not_here")}</span>}
                       </button>

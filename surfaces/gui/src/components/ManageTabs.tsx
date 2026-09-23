@@ -43,7 +43,7 @@ const relTime = (epoch?: number | null): string | null => {
 const SEC_H = "text-label text-faint font-medium";
 const BTN_BORDERED =
   "text-ui px-3 py-1.5 rounded-lg border border-line bg-paper hover:border-lineStrong shrink-0";
-const BTN_ACCENT = "text-ui px-3 py-1.5 rounded-lg bg-accent text-white shrink-0 disabled:opacity-50";
+const BTN_ACCENT = "text-ui px-3 py-1.5 rounded-lg bg-accent text-onAccent shrink-0 disabled:opacity-50";
 
 /** Two-letter initials for a chip/avatar (first+last word, else first two chars). */
 function initials(name: string): string {
@@ -267,7 +267,7 @@ export function UnauthorizedBlock({
             <div className="text-ui mt-1 break-words">{m.text}</div>
             <div className="flex items-center gap-1.5 mt-2">
               <button
-                className="text-meta px-2 py-1 rounded-md bg-accent text-white"
+                className="text-meta px-2 py-1 rounded-md bg-accent text-onAccent"
                 data-testid={`parked-allow-deliver-${m.id}`}
                 title={t("manage.parked_allow_deliver_tip")}
                 onClick={() => act(m.id, "allow_deliver")}
@@ -419,7 +419,7 @@ export function AllowlistBlock({
                   {r.user_name || t("manage.unknown")} <span className="text-faint">· {r.chat_type}</span>
                 </span>
                 <button
-                  className="ml-auto text-meta px-2 py-0.5 rounded-md bg-accent text-white shrink-0"
+                  className="ml-auto text-meta px-2 py-0.5 rounded-md bg-accent text-onAccent shrink-0"
                   onClick={async () => {
                     await allowUser(c.name, r.user_id, teamId);
                     onChanged();

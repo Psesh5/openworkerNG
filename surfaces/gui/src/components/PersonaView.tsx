@@ -35,7 +35,7 @@ const SEC_H = "text-label text-faint font-medium";
 const TAG_CORE =
   "text-label px-1.5 py-0.5 rounded-full bg-warnSoft/70 text-warnInk border border-warnInk/15";
 const TAG_MCP = "text-label px-1.5 py-0.5 rounded border border-line text-faint";
-const BTN_ACCENT = "text-meta px-2.5 py-1.5 rounded-lg bg-accent text-white shrink-0";
+const BTN_ACCENT = "text-meta px-2.5 py-1.5 rounded-lg bg-accent text-onAccent shrink-0";
 const BTN_BORDERED =
   "text-meta px-2.5 py-1.5 rounded-lg border border-line bg-paper hover:border-lineStrong shrink-0 disabled:opacity-40";
 const GRP = "rounded-xl2 border border-line bg-panel divide-y divide-line overflow-hidden";

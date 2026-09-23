@@ -26,7 +26,7 @@ const CARD = "rounded-xl2 border border-line bg-panel";
 const FIELD_LABEL = "text-ui font-medium text-ink";
 const FIELD_HELP = "text-meta text-muted mt-1.5 leading-relaxed";
 const BTN_ACCENT =
-  "text-ui px-3 py-2 rounded-lg bg-accent text-white shrink-0 disabled:opacity-40";
+  "text-ui px-3 py-2 rounded-lg bg-accent text-onAccent shrink-0 disabled:opacity-40";
 
 export function MemorySection({
   machine,

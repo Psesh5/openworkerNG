@@ -28,7 +28,7 @@ import { Icon } from "./Icon";
 // via an inline configurator on the Inbox list.
 const CARD = "rounded-xl2 border border-line bg-panel";
 const SELECT = "px-2.5 py-1.5 rounded-lg border border-line bg-paper text-ui text-ink";
-const BTN_ACCENT_SM = "text-meta px-2.5 py-1 rounded-md bg-accent text-white disabled:opacity-50";
+const BTN_ACCENT_SM = "text-meta px-2.5 py-1 rounded-md bg-accent text-onAccent disabled:opacity-50";
 
 export function InboxConfigure() {
   const { t } = useTranslation();

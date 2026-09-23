@@ -539,7 +539,7 @@ function ApproveMachineCard({
           </div>
           <div className="mt-3.5 flex items-center gap-2.5">
             <button
-              className="px-3.5 py-2 rounded-lg bg-accent text-white text-ui font-medium"
+              className="px-3.5 py-2 rounded-lg bg-accent text-onAccent text-ui font-medium"
               onClick={() => void decide(true)}
               data-testid="approve-button"
             >
@@ -988,7 +988,7 @@ function MachineKeysCard({ machine, onClose }: { machine: Machine; onClose: () =
               data-testid="keys-value"
             />
             <button
-              className="px-3.5 py-2 rounded-lg bg-accent text-white text-ui font-medium disabled:opacity-50"
+              className="px-3.5 py-2 rounded-lg bg-accent text-onAccent text-ui font-medium disabled:opacity-50"
               disabled={busy || !value.trim() || !profileName}
               onClick={() => void deploy()}
               data-testid="keys-deploy"

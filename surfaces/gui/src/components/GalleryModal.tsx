@@ -28,7 +28,7 @@ import { PersonaHero } from "./PersonaHero";
 
 const CARD = "rounded-xl border border-line bg-panel/60";
 const BTN_ACCENT =
-  "text-ui px-3 py-2 rounded-lg bg-accent text-white shrink-0 disabled:opacity-40";
+  "text-ui px-3 py-2 rounded-lg bg-accent text-onAccent shrink-0 disabled:opacity-40";
 const CHIP = "text-label px-1.5 py-0.5 rounded border border-line text-muted";
 
 type Source = "all" | "openworker" | "team";

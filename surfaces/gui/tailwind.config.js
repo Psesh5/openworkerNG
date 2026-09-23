@@ -28,6 +28,7 @@ export default {
         lineStrong: tok("--line-strong"),
         accent: tok("--accent"),
         accentSoft: tok("--accent-soft"),
+        onAccent: tok("--on-accent"),
         ok: tok("--ok"),
         okSoft: tok("--ok-soft"),
         okLine: tok("--ok-line"),
@@ -42,8 +43,8 @@ export default {
         onSolid: tok("--on-solid"),
       },
       fontFamily: {
-        sans: ["-apple-system", "BlinkMacSystemFont", "Segoe UI", "Inter", "system-ui", "sans-serif"],
-        mono: ["SF Mono", "JetBrains Mono", "Menlo", "monospace"],
+        sans: ["IBM Plex Sans", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "system-ui", "sans-serif"],
+        mono: ["IBM Plex Mono", "SF Mono", "Menlo", "monospace"],
       },
       borderRadius: { xl2: "14px" },
       // UX-048: the six-size type scale as classes bound to the CSS tokens (styles.css),

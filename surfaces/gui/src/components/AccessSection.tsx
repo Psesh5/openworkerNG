@@ -48,7 +48,7 @@ const platformOf = (channel: string) => (channel.includes(":") ? channel.split("
 const SEC_H = "text-label text-faint font-medium";
 const TAG_CORE =
   "text-label px-1.5 py-0.5 rounded-full bg-warnSoft/70 text-warnInk border border-warnInk/15";
-const BTN_ACCENT = "text-meta px-2.5 py-1.5 rounded-lg bg-accent text-white shrink-0";
+const BTN_ACCENT = "text-meta px-2.5 py-1.5 rounded-lg bg-accent text-onAccent shrink-0";
 const BTN_BORDERED =
   "text-meta px-2.5 py-1.5 rounded-lg border border-line bg-paper hover:border-lineStrong shrink-0";
 

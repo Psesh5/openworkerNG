@@ -232,7 +232,7 @@ export function MachineModelsPanel({ machine }: { machine: Machine }) {
                 ))}
               </select>
               <button
-                className="px-3.5 py-2 rounded-lg bg-accent text-white text-ui font-medium disabled:opacity-50"
+                className="px-3.5 py-2 rounded-lg bg-accent text-onAccent text-ui font-medium disabled:opacity-50"
                 disabled={busy || !walletPick}
                 onClick={() => void sendFromWallet()}
                 data-testid="wallet-send"
@@ -274,7 +274,7 @@ export function MachineModelsPanel({ machine }: { machine: Machine }) {
               data-testid="paste-key"
             />
             <button
-              className="px-3.5 py-2 rounded-lg bg-accent text-white text-ui font-medium disabled:opacity-50"
+              className="px-3.5 py-2 rounded-lg bg-accent text-onAccent text-ui font-medium disabled:opacity-50"
               disabled={busy || !value.trim() || !profileName}
               onClick={() => void deployPasted()}
               data-testid="paste-deploy"
