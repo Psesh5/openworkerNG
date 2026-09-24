@@ -33,7 +33,7 @@
     "staffing_not_assignment": "Creating the team does not start these tasks. Approval lets the lead create, assign, and steer this team. Workers receive only the connectors you select."
   },
   "boot": {
-    "starting": "Starting OpenWorker…",
+    "starting": "Starting BusinessOS…",
     "restoring": "Restoring your session…"
   },
   "common": {
@@ -259,7 +259,7 @@
     "open": "Open",
     "loading": "Loading…",
     "working": "Working...",
-    "empty_state": "For longer multi-step tasks, progress will appear here while OpenWorker plans, uses tools, waits for approval, and produces artifacts.",
+    "empty_state": "For longer multi-step tasks, progress will appear here while BusinessOS plans, uses tools, waits for approval, and produces artifacts.",
     "refresh": "Refresh artifacts",
     "back": "Back",
     "back_to_artifacts": "Back to artifacts",
@@ -323,7 +323,7 @@
       "memory": "Memory"
     },
     "general_title": "General",
-    "general_sub": "How OpenWorker looks and behaves on this machine.",
+    "general_sub": "How BusinessOS looks and behaves on this machine.",
     "theme": "Theme",
     "appearance_aria": "Appearance",
     "theme_light": "Light",
@@ -338,7 +338,7 @@
     "language_help": "Switch the interface language — takes effect immediately.",
     "always_on": "Always-on",
     "open_at_login": "Open at login",
-    "open_at_login_help": "Launch OpenWorker automatically when you sign in.",
+    "open_at_login_help": "Launch BusinessOS automatically when you sign in.",
     "keep_awake": "Keep this system awake",
     "keep_awake_help": "Prevent idle sleep so scheduled tasks fire on time.",
     "setup_updates": "Setup & updates",
@@ -349,8 +349,8 @@
     "update_install": "Update to v{{version}} and restart",
     "update_latest": "You're on the latest version.",
     "update_error": "Couldn't check right now.",
-    "update_downloading": "Downloading — OpenWorker restarts by itself when it's ready.",
-    "voice_desktop_only": "Voice Input setup is available in the OpenWorker desktop app.",
+    "update_downloading": "Downloading — BusinessOS restarts by itself when it's ready.",
+    "voice_desktop_only": "Voice Input setup is available in the BusinessOS desktop app.",
     "personas_intro": "Manage your coworkers and add new ones.",
     "scratch_placeholder": "~/OpenWorker",
     "files_browse": "Browse…",
@@ -436,7 +436,7 @@
     "sign_in_oneclick": "Sign in to OpenWorker Cloud for one-click — or add a token below"
   },
   "update": {
-    "ready": "OpenWorker v{{version}} is ready to install.",
+    "ready": "BusinessOS v{{version}} is ready to install.",
     "banner_title": "Update available",
     "downloading": "Downloading…",
     "install_failed": "The update couldn't be installed — it will be offered again next launch.",
@@ -490,7 +490,7 @@
   },
   "automations": {
     "title": "Automations",
-    "sub": "Recurring tasks OpenWorker runs on a schedule.",
+    "sub": "Recurring tasks BusinessOS runs on a schedule.",
     "active_next": "Active · next {{time}}",
     "allowed_desc": "Standing approvals this automation may use — everything else still asks first.",
     "allowed_without_asking": "Allowed without asking",
@@ -517,7 +517,7 @@
     "deliver_to": "Deliver to",
     "delivery_sched": "Delivery & schedule",
     "edit": "Edit",
-    "empty_state": "No scheduled tasks yet — use a template above, click <strong>+ New automation</strong>, or just ask OpenWorker in a session.",
+    "empty_state": "No scheduled tasks yet — use a template above, click <strong>+ New automation</strong>, or just ask BusinessOS in a session.",
     "finish_connecting": "Finish connecting {{name}} in your browser.",
     "finish_connecting_desc": "Approve it there, then come back — this page updates by itself.",
     "finish_signin_desc": "Finish signing in in your browser — this page updates by itself.",
@@ -1265,7 +1265,7 @@
     "remove_key_confirm": "Remove the {{title}} key from this computer?",
     "signin_unlocks": "Sign-in unlocks the one-click {{title}} connect — or connect manually below.",
     "tool_asks_approval": "{{name}} · {{kind}} · asks approval",
-    "tools_exposed": "Tools exposed to OpenWorker",
+    "tools_exposed": "Tools exposed to BusinessOS",
     "unknown": "unknown",
     "validating": "Validating…"
   },
@@ -1293,7 +1293,7 @@
     "cta_work_title": "Start working with Coworker",
     "google_pair_detail": "Coming soon — pending Google's app verification.",
     "google_pair_title": "Gmail & Google Calendar",
-    "model_intro": "Pick a model provider to get started — OpenWorker runs on your own key, and your key and your data stay on this computer.",
+    "model_intro": "Pick a model provider to get started — BusinessOS runs on your own key, and your key and your data stay on this computer.",
     "models_settings_hint": "Models can be enabled or hidden anytime in Settings ▸ Models.",
     "more_tools_hint": "30+ more tools on the Connectors page — add or remove anytime. Tokens stay on this computer.",
     "next": "Next",
@@ -1310,7 +1310,7 @@
     "two_ways": "Two good ways to start:",
     "waiting": "Waiting…",
     "youre_set_up": "You're set up",
-    "welcome": "Welcome to OpenWorker",
+    "welcome": "Welcome to BusinessOS",
     "tool_outlook_benefit": "Stay on top of email",
     "tool_outlook_detail": "Outlook — triage mail, draft replies, run your calendar.",
     "tool_slack_benefit": "Keep up with Slack",
@@ -1489,7 +1489,7 @@
   },
   "workspace_trust": {
     "title": "Trust this workspace’s commands?",
-    "sub": "This project asks OpenWorker to run the commands below without individual approval. Trust applies to future configuration changes at this exact folder until you revoke it in Settings.",
+    "sub": "This project asks BusinessOS to run the commands below without individual approval. Trust applies to future configuration changes at this exact folder until you revoke it in Settings.",
     "save_failed": "Could not save workspace trust.",
     "keep_asking": "Keep asking",
     "saving": "Saving…",
@@ -1619,9 +1619,9 @@
   "toolreq": {
     "needs": "The coworker needs <code>{{tool}}</code>",
     "reason_line": "<label>Reason:</label> “{{reason}}”",
-    "installs_with_source": "OpenWorker installs its own verified copy from {{source}} — or install it yourself and continue.",
-    "installs": "OpenWorker installs its own verified copy — or install it yourself and continue.",
-    "no_build": "OpenWorker has no verified build for this machine — install it yourself if you want this check, or continue and the coworker will note the gap.",
+    "installs_with_source": "BusinessOS installs its own verified copy from {{source}} — or install it yourself and continue.",
+    "installs": "BusinessOS installs its own verified copy — or install it yourself and continue.",
+    "no_build": "BusinessOS has no verified build for this machine — install it yourself if you want this check, or continue and the coworker will note the gap.",
     "skip": "Continue without it",
     "install": "Install"
   },
@@ -1637,7 +1637,7 @@
     "door_write_sub": "A name, a description, and the instructions",
     "door_import": "Import a file",
     "door_import_sub": "A .zip or SKILL.md someone shared — you review before it installs",
-    "door_ai": "Create with OpenWorker",
+    "door_ai": "Create with BusinessOS",
     "door_ai_sub": "Starts a conversation — the worker builds it and asks before adding it to your skills",
     "upload_aria": "Upload a skill archive",
     "review_title": "Review before installing",
@@ -1969,7 +1969,7 @@
   },
   "machines": {
     "title": "Machines",
-    "sub": "Headless OpenWorkers that joined this app. Machines dial out to you — they never accept connections. Sessions on a machine keep running while this app is closed.",
+    "sub": "Headless BusinessOS machines that joined this app. Machines dial out to you — they never accept connections. Sessions on a machine keep running while this app is closed.",
     "this_mac": "This Mac",
     "always_available": "always available",
     "never_seen": "never seen",
@@ -2032,7 +2032,7 @@
     },
     "keys": {
       "title": "Keys on {{name}}",
-      "no_seal_key": "This machine has no sealing key pinned yet — reconnect it once on current OpenWorker code, then reopen this card.",
+      "no_seal_key": "This machine has no sealing key pinned yet — reconnect it once on current BusinessOS code, then reopen this card.",
       "sealed_note": "The key is sealed in this browser tab to this machine's key and passes through the server as ciphertext — it is never stored here.",
       "fingerprint_line": "Machine sealing key <fp/> — verify with <cmd>openworker machine status</cmd> on the box.",
       "deployed_on": "deployed {{date}}",
@@ -2061,7 +2061,7 @@
       "ledger_heading": "Keys deployed from here",
       "stale": "wallet value changed — redeploy?",
       "send_heading": "Send a key to this machine",
-      "no_seal_key": "This machine has no sealing key pinned yet — reconnect it once on current OpenWorker code.",
+      "no_seal_key": "This machine has no sealing key pinned yet — reconnect it once on current BusinessOS code.",
       "from_wallet": "From this Mac's wallet…",
       "paste_placeholder": "Paste an API key — sealed in this window, never stored on the way",
       "sent_note": "Sent {{profile}} to {{name}}.",
@@ -2431,7 +2431,6 @@
     "related_conversations": "Related worker conversations",
     "send": "Send",
     "worker_offline": "Worker connection unavailable. Messages are disabled until reconnected.",
-    "open_view": "Open team view",
     "open_worker_pane": "View {{name}} beside the lead",
     "full_session": "Open full session",
     "chat_off": "Team chat is off for this team"

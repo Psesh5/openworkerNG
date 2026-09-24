@@ -1070,7 +1070,7 @@ export function Sidebar(props: Props) {
             <Icon name="sidebar" size={16} />
           </button>
         )}
-        <div className="brand-wordmark text-body">OpenWorker<span className="beta-tag">beta</span></div>
+        <div className="brand-wordmark text-body">BusinessOS<span className="beta-tag">beta</span></div>
         <div className="ml-auto"><ThemeToggle /></div>
       </div>
 
